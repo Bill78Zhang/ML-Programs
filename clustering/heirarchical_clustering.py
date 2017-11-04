@@ -65,7 +65,7 @@ def find_priority(cluster_1, cluster_2):
     return distance_sum / (N * M)
 
 
-def hierarchical_clustering(data, cluster_count=1):
+def hierarchical_clustering(data, cluster_count=1, ):
     clusters = []  # vector of clusters
     size = data.shape[0]
     cluster_index = 0
@@ -122,9 +122,23 @@ def load_data():
     return np.array(dataset, dtype=float)
 
 
+def normalize_data(data):
+    """
+    Normalizes each column of data.
+    :param data:
+    :return:
+    """
+    attr_count = data.shape[1] - 1
+    mean = np.mean(data[:, :-1], axis=0)
+    std_dev = np.std(data[:, :-1], axis=0)
+    for j in xrange(attr_count):
+        data[:,j] = (data[:, j] - mean[j]) / std_dev[j]
+    return data
+
 if __name__ == '__main__':
     id = 1
-    for cluster in hierarchical_clustering(load_data(), cluster_count=3):
+    data = load_data()
+    for cluster in hierarchical_clustering(data, cluster_count=3):
         cnt = [0] * 3
         for point in cluster.points:
             cnt[int(point[-1])  ] += 1
