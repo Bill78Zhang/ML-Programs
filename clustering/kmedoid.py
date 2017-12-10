@@ -108,6 +108,7 @@ def kmedoid_clustering(data, k=1, itrs=1000):
             min_dist = euclidean_dist(centroids[i], clusters[i][0][:-1])
             cen = clusters[0][:-1]
             for d in clusters[i]:
+
                 dist = euclidean_dist(centroids[i], d[:-1])
                 if dist < min_dist:
                     cen = d[:-1]

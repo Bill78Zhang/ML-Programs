@@ -127,7 +127,7 @@ def db_scan(data, minpts=1, eps=0.0):
                     # boundary point and it may become part of two clusters at the same time,
                     # even we humans can't resolve this issue so we'll think of it as part
                     # of both clusters and it will contribute to min_pts criteria.
-                    pass
+                     pass
             j += 1
 
         current_cluster += 1

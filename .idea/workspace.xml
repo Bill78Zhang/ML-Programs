@@ -2,11 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36fc0483-46e1-4817-bac5-5f00895679f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clustering/dbscan.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clustering/kmedoid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web mining/hits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web mining/page_rank.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web mining/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web mining/web-Google.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Breast cancer/breast-cancer-wisconsin.data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Breast cancer/breast-cancer-wisconsin.names.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Breast cancer/unformatted-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Breast cancer/wdbc.data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Breast cancer/wdbc.names.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Breast cancer/wpbc.data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Breast cancer/wpbc.names.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Iris/bezdekIris.data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Iris/iris.data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Iris/iris.data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Iris/iris.names.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Iris/test.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Iris/train.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/KNN.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/NN_classifier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/Naive_bays.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/logistic_regression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Learning algorithms/split_data.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/OMKAR_JADHAV.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/OMKAR_JADHAV.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clustering/heirarchical_clustering.py" afterPath="$PROJECT_DIR$/clustering/heirarchical_clustering.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clustering/dbscan.py" afterPath="$PROJECT_DIR$/clustering/dbscan.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clustering/kmeans.py" afterPath="$PROJECT_DIR$/clustering/kmeans.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clustering/kmedoid.py" afterPath="$PROJECT_DIR$/clustering/kmedoid.py" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,35 +44,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kmeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clustering/kmeans.py">
+      <file leaf-file-name="iris.data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clustering/iris.data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1340">
-              <caret line="33" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding>
-                <element signature="e#34#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kmedoid.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clustering/kmedoid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="e#303#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iris.names.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning algorithms/Iris/iris.names.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="3300">
+              <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,31 +57,43 @@
       <file leaf-file-name="dbscan.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clustering/dbscan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
+            <state relative-caret-position="22">
+              <caret line="129" column="14" lean-forward="false" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_rank.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web mining/page_rank.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#34#52#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logistic_regression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning algorithms/logistic_regression.py">
+      <file leaf-file-name="hits.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web mining/hits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1479">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="462">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Naive_bays.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning algorithms/Naive_bays.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web mining/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="118" column="33" lean-forward="false" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="154">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +112,17 @@
     <findStrings>
       <find>&gt;&gt;&gt;</find>
       <find>[]</find>
-      <find>print</find>
       <find>None</find>
+      <find>TEST</find>
+      <find>data</find>
+      <find>pr</find>
+      <find>8307</find>
+      <find>8768</find>
+      <find>23552</find>
+      <find>print</find>
+      <find>def rank():     for key, node in graph.nodes(data=True):         ranks[key] = 1 / float(V)      for _ in range(1):         for key, node in graph.nodes(data=True):             rank_sum = 0             neighbors = graph.in_edges(key)             for n in neighbors:                 outlinks = len(graph.out_edges(n[1]))                 if outlinks &gt; 0:                     rank_sum += (1 / float(outlinks)) * ranks[n[1]]              # actual page rank compution             ranks[key] = ((1 - float(d)) * (1 / float(V))) + d * rank_sum     return p</find>
+      <find>self</find>
+      <find>nor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,11 +166,22 @@
         <option value="$PROJECT_DIR$/Learning algorithms/NN_classifier.py" />
         <option value="$PROJECT_DIR$/Learning algorithms/Naive_bays.py" />
         <option value="$PROJECT_DIR$/Learning algorithms/KNN.py" />
-        <option value="$PROJECT_DIR$/clustering/iris.data.txt" />
         <option value="$PROJECT_DIR$/numpy demo/traditional.py" />
-        <option value="$PROJECT_DIR$/clustering/kmeans.py" />
         <option value="$PROJECT_DIR$/clustering/heirarchical_clustering.py" />
+        <option value="$PROJECT_DIR$/Assignment 6/apriori.py" />
+        <option value="$PROJECT_DIR$/Assignment 7/PageRank.py" />
+        <option value="$PROJECT_DIR$/Assignment 7/__init__.py" />
         <option value="$PROJECT_DIR$/clustering/kmedoid.py" />
+        <option value="$PROJECT_DIR$/clustering/iris.data.txt" />
+        <option value="$PROJECT_DIR$/clustering/kmeans.py" />
+        <option value="$PROJECT_DIR$/Association Rules/apriori.py" />
+        <option value="$PROJECT_DIR$/web mining/graph.txt" />
+        <option value="$PROJECT_DIR$/web mining/data.txt" />
+        <option value="$PROJECT_DIR$/Association Rules/test.py" />
+        <option value="$PROJECT_DIR$/web mining/utils.py" />
+        <option value="$PROJECT_DIR$/web mining/hits.py" />
+        <option value="$PROJECT_DIR$/web mining/page_rank.py" />
+        <option value="$PROJECT_DIR$/classifiers/KNN.py" />
         <option value="$PROJECT_DIR$/clustering/dbscan.py" />
       </list>
     </option>
@@ -198,7 +230,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,6 +239,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ML Programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web mining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML Programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML Programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numpy demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML Programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML Programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradient descent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,7 +298,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Learning algorithms" />
+              <option name="myItemId" value="classifiers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,16 +312,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Learning algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Iris" />
+              <option name="myItemId" value="Association Rules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,24 +326,47 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Programming\Machine learning\Coursera\ML Programs\Assignment 7" />
+      <recent name="G:\Programming\Machine learning\Coursera\ML Programs\Association Rules" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Programming\Machine learning\Coursera\ML Programs\web mining" />
+      <recent name="G:\Programming\Machine learning\Coursera\ML Programs\Assignment 7" />
       <recent name="G:\Programming\Machine learning\Coursera\ML Programs\clustering" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dbscan">
-    <configuration default="false" name="3d_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.hits">
+    <configuration default="false" name="page_rank" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradient descent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web mining" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML Programs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradient descent/3d_graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web mining/page_rank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Association Rules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML Programs" />
+      <option name="SCRIPT_NAME" value="G:\Programming\Machine learning\Coursera\ML Programs\Association Rules\solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -305,55 +388,41 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="heirarchical_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Association Rules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML Programs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/heirarchical_clustering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Association Rules/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="kmedoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="hits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web mining" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML Programs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/kmedoid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web mining/hits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="dbscan" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML Programs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/dbscan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+    <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -491,19 +560,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.3d_graph" />
-      <item index="1" class="java.lang.String" itemvalue="Python.kmeans" />
-      <item index="2" class="java.lang.String" itemvalue="Python.heirarchical_clustering" />
-      <item index="3" class="java.lang.String" itemvalue="Python.kmedoid" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dbscan" />
+      <item index="0" class="java.lang.String" itemvalue="Python.page_rank" />
+      <item index="1" class="java.lang.String" itemvalue="Python.apriori" />
+      <item index="2" class="java.lang.String" itemvalue="Python.kmeans" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hits" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dbscan" />
-        <item index="1" class="java.lang.String" itemvalue="Python.kmedoid" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kmeans" />
-        <item index="3" class="java.lang.String" itemvalue="Python.heirarchical_clustering" />
-        <item index="4" class="java.lang.String" itemvalue="Python.3d_graph" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hits" />
+        <item index="1" class="java.lang.String" itemvalue="Python.page_rank" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.apriori" />
+        <item index="4" class="java.lang.String" itemvalue="Python.kmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -523,48 +592,63 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19568452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.51762116" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.299509" sideWeight="0.48237884" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.4941435" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4941435" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4091653" sideWeight="0.48237884" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.51762116" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.51762116" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3039867" sideWeight="0.48237884" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.4941435" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17642643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091653" sideWeight="0.48237884" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4941435" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19568452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,72 +674,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DWDM/Iris/train.data" />
-    <entry file="file://$PROJECT_DIR$/DWDM/Iris/test.data" />
-    <entry file="file://C:/Python27/Lib/site-packages/sklearn/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8774">
-          <caret line="529" column="0" lean-forward="true" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/sklearn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="64" column="67" lean-forward="true" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/sklearn/linear_model/logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="1549" column="31" lean-forward="true" selection-start-line="1549" selection-start-column="31" selection-end-line="1549" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DWDM/split_data.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/numpy/lib/index_tricks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/ann_classfier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DWDM/Regression.py" />
-    <entry file="file://$PROJECT_DIR$/DWDM/KNN.py" />
-    <entry file="file://$PROJECT_DIR$/HPC/Graphs_cache_size.py" />
-    <entry file="file://$PROJECT_DIR$/Octave Scripts/tutorial.m" />
-    <entry file="file://$PROJECT_DIR$/skit_learn_demo/first.py" />
-    <entry file="file://$PROJECT_DIR$/xgboost/Sarcasm - Home_files/1f62c.png" />
-    <entry file="file://$PROJECT_DIR$/xgboost/Sarcasm - Home_files/1f603.png" />
-    <entry file="file://$PROJECT_DIR$/xgboost/Sarcasm - Home_files/1f605.png" />
-    <entry file="file://$PROJECT_DIR$/xgboost/Sarcasm - Home_files/1f622.png" />
-    <entry file="file://$PROJECT_DIR$/xgboost/Sarcasm - Home_files/5wEV_JBg8QB.js.download" />
-    <entry file="file://$PROJECT_DIR$/DHCP.py" />
-    <entry file="file://$PROJECT_DIR$/DHCP_2.py" />
     <entry file="file://$PROJECT_DIR$/DWDM/NN_classifier.py" />
     <entry file="file://$PROJECT_DIR$/gradient descent/gradient_descent2.py" />
     <entry file="file://$PROJECT_DIR$/Learning algorithms/Regression.py" />
     <entry file="file://$PROJECT_DIR$/gradient descent/gd2.py" />
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/Iris/test.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/Iris/test.data" />
     <entry file="file://G:/Sem 7/Data warehousing/Practical/Week 1/Matrix_mul.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -663,41 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/split_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/KNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/NN_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2674">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/Iris/iris.data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clustering/iris.data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/split_data.py" />
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/KNN.py" />
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/NN_classifier.py" />
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/Iris/iris.data.txt" />
     <entry file="file://$PROJECT_DIR$/numpy demo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -739,13 +736,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xgboost/pima-indians-diabetes.csv" />
     <entry file="file://$PROJECT_DIR$/xgboost/pima-indians-diabetes.data.txt" />
-    <entry file="file://$PROJECT_DIR$/numpy demo/_numpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradient descent/3d_graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -753,67 +743,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/Iris/iris.names.txt">
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/Iris/iris.names.txt" />
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/logistic_regression.py" />
+    <entry file="file://$PROJECT_DIR$/Learning algorithms/Naive_bays.py" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/DataSet2.txt" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/DataSet3.txt" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/DataSet4.txt" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/README.md" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/DataSet1.txt" />
+    <entry file="file://$PROJECT_DIR$/Assignment 7/PageRank.py" />
+    <entry file="file://$PROJECT_DIR$/Assignment 7/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/clustering/kmedoid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="2376">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/heirarchical_clustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web mining/web-Google.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Association Rules/1000-out2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numpy demo/_numpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clustering/iris.data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1340">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Association Rules/1000-out1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web mining/graph.txt" />
+    <entry file="file://$PROJECT_DIR$/web mining/web-Stanford.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web mining/data.txt" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/test.py" />
+    <entry file="file://$PROJECT_DIR$/Association Rules/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="117" column="47" lean-forward="true" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="108" column="54" lean-forward="true" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web mining/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#34#52#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/web mining/page_rank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning algorithms/Naive_bays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="118" column="33" lean-forward="false" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clustering/kmedoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#303#321#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web mining/hits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/dbscan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
-          <folding>
-            <element signature="e#34#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="129" column="14" lean-forward="false" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,6 @@ def load_data():
         tmp = list(map(float, s_list[:len(s_list) - 1]))
         tmp.append(int(class_dict[s_list[len(s_list) - 1].strip()]))
         dataset.append(tmp)
-
     return np.array(dataset, dtype=float)
 
 
